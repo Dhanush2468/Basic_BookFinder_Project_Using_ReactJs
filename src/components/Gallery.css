@@ -1,0 +1,33 @@
+.book {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+.bookCover {
+  width: 220px;
+  height: 220px;
+  border: 4px solid #000;
+  border-radius: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 15%;
+}
+
+.bookTitle {
+  width: 205px;
+  background-color: #000;
+  color: #fff;
+  opacity: 7.5;
+  margin-left: 1%;
+  text-align: center;
+  position: absolute;
+  top: 105%;
+  padding: 10px;
+}
+
+/* TODO: Apply some updated CSS, or just utilize what is available within React-Bootstrap */
